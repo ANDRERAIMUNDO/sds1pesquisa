@@ -7,7 +7,10 @@ import com.devsuperior.dspesquisa.entities.enums.Platform;
 
 public class GameDTO implements Serializable {
 	
-	private static final long seralVersionUID = 1L;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	private Long id;
 	private String title;

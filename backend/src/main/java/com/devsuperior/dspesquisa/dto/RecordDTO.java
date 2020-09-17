@@ -8,7 +8,10 @@ import com.devsuperior.dspesquisa.entities.enums.Platform;
 
 public class RecordDTO implements Serializable {
 	
-	private static final long seralVersionUID = 1L;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	
 	private Long id;
 	private Instant moment;
