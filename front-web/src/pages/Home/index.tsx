@@ -1,6 +1,7 @@
 import React from 'react';
 import {ReactComponent as ArrowIcon} from '../../assets/arrow.svg';
 import {ReactComponent as GameImage} from '../../assets/game.svg';
+import {Link} from 'react-router-dom';
 import './styles.css';
 const Header = ()=> (
        <div className="home-container">
@@ -12,6 +13,7 @@ const Header = ()=> (
                 Clique no botão abaixo e descubra quais são os jogos
                 que os gamers estão escolhendo!
                </h3>
+                <Link to="/records">
                <div className="home-actions">
                     <button className="home-btn">
                         QUERO SABER QUAIS SÃO
@@ -20,6 +22,7 @@ const Header = ()=> (
                     <ArrowIcon/>
                     </div>
                </div>
+               </Link>
            </div>
            <GameImage className="home-image"/>
        </div>
